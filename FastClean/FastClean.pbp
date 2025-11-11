@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 6.30 beta 3 (Windows - x86)">
+  <section name="config">
+    <options closefiles="1" openmode="0" name="FastClean"/>
+  </section>
+  <section name="data">
+    <explorer view="" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2025-11-11 10:40" user="damia" host="G780"/>
+  </section>
+  <section name="files">
+    <file name="FastClean.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" sortindex="1" panelstate="+"/>
+      <fingerprint md5="db3890afe46fe31c651c29dbf9a915be"/>
+    </file>
+    <file name="FastCleanFunctions.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" sortindex="2" panelstate="+"/>
+      <fingerprint md5="5d5d97c618fd3b5411e15a9d7f2e2079"/>
+    </file>
+    <file name="FastCleanVariables.pbi">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" sortindex="3" panelstate="+"/>
+      <fingerprint md5="08ce1946c5af84d4bd16c26c075a5651"/>
+    </file>
+    <file name="frmMain.pbf">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" sortindex="4" panelstate="+"/>
+      <fingerprint md5="58fac260eea1ddb191d8017385d6b406"/>
+    </file>
+    <file name="frmLogs.pbf">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" sortindex="5" panelstate="+"/>
+      <fingerprint md5="65153bc5ce340a9df317fda3210f1085"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="Wersja 64bit" enabled="1" default="1">
+      <inputfile value="FastClean.pb"/>
+      <outputfile value="EXE\FastClean_x64.exe"/>
+      <executable value="EXE\FastClean_x64.exe"/>
+      <options xpskin="1" dpiaware="1" shareducrt="1" debug="1" optimizer="1"/>
+      <icon enable="1">47_85255.ico</icon>
+      <versioninfo enable="1">
+        <field0 value="1,0,0,0"/>
+        <field1 value="1,0,0,0"/>
+        <field2 value="z24.pl Damian Daszkiewicz"/>
+        <field3 value="FastClean"/>
+        <field4 value="1,0,0,0"/>
+        <field5 value="1,0,0,0"/>
+        <field6 value="www.OfficeBlog.pl"/>
+        <field7 value="FastClean"/>
+        <field8 value="FastClean.exe"/>
+        <field9 value="Freeware"/>
+        <field14 value="https://www.officeblog.pl"/>
+      </versioninfo>
+      <resources>
+        <resource value="haker.rc"/>
+      </resources>
+    </target>
+    <target name="Wersja 32bit" enabled="1" default="0">
+      <inputfile value="FastClean.pb"/>
+      <outputfile value="EXE\FastClean_x86.exe"/>
+      <compiler version="PureBasic 6.30 beta 3 - C Backend (Windows - x86)"/>
+      <commandline value="v:\b"/>
+      <executable value="EXE\FastClean_x86.exe"/>
+      <options xpskin="1" dpiaware="1" shareducrt="1" debug="1" optimizer="1"/>
+      <icon enable="1">47_85255.ico</icon>
+      <versioninfo enable="1">
+        <field0 value="1,0,0,0"/>
+        <field1 value="1,0,0,0"/>
+        <field2 value="z24.pl Damian Daszkiewicz"/>
+        <field3 value="FastClean"/>
+        <field4 value="1,0,0,0"/>
+        <field5 value="1,0,0,0"/>
+        <field6 value="www.OfficeBlog.pl"/>
+        <field7 value="FastClean"/>
+        <field8 value="FastClean.exe"/>
+        <field9 value="Freeware"/>
+        <field14 value="https://www.officeblog.pl"/>
+      </versioninfo>
+      <resources>
+        <resource value="haker.rc"/>
+      </resources>
+    </target>
+  </section>
+</project>
